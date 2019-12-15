@@ -1,0 +1,21 @@
+.container {
+  font-family: "Lato";
+}
+
+.content {
+  position: fixed;
+  font-family: "Lato";
+  font-weight: bolder;
+  color: grey;
+  font-size: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contentdrop {
+  font-family: "Lato";
+  font-weight: bolder;
+  font-size: 12px;
+  color: grey;
+}

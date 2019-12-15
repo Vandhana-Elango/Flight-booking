@@ -1,0 +1,71 @@
+.navbar-header {
+  display: flex;
+  -ms-flex-pack: justify;
+  width: 80%;
+  margin-left: 20%;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 20px;
+  background: #fff;
+  text-align: center;
+  padding-right: 20px;
+  position: fixed;
+  font-weight: normal;
+  font-family: "Lato";
+}
+
+.main-sidebar {
+  background-color: black;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-y: hidden;
+  padding-top: 20px;
+  color: rgb(224, 220, 219);
+  font-family: "Lato";
+  font-weight: 700;
+}
+
+.navbar-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  font-family: "Lato";
+  background-color: rgb(68, 66, 66);
+  color: white;
+  text-align: center;}
+
+.Logo {
+  padding-left: 80px;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.Logo img {
+  height: 35%;
+  width: 35%;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato";
+}
+
+ul li {
+  color: rgba(230, 230, 230, 0.9);
+  margin-bottom: 12px;
+  font-size: 14px;
+  list-style-type: none;
+}
